@@ -47,6 +47,8 @@ This makes you able to use functions like `let animationsPromise = animationName
 For more information about the Web Animations API go to:
 [Web Animations API | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
 
-
+The Web Animation API is not very well supported as of today (13-02-2018), this demo does work in Firefox Nightly.
+For a polyfill add this to your HTML:
+`<script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=WebAnimations"></script>`
 
 Mees Rutten, 2018
