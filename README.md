@@ -49,6 +49,7 @@ For more information about the Web Animations API go to:
 
 The Web Animation API is not very well supported as of today (13-02-2018), this demo does work in Firefox Nightly.
 For a polyfill add this to your HTML:
-`<script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=WebAnimations"></script>`
+
+`<script async src="web-animations.min.js"></script>`
 
 Mees Rutten, 2018
