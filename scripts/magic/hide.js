@@ -1,10 +1,10 @@
 export default [
 	[
 		{
-			transform: 'scale(1) translateY(0)', opacity: 1
+			transform: 'scale(1) translateY(0)', opacity: 1, willChange: 'transform, opacity'
 		},
 		{
-			transform: 'scale(0) translateY(-10%)', opacity: 0
+			transform: 'scale(0) translateY(-10%)', opacity: 0, willChange: 'auto'
 		}
 	],
 	{
