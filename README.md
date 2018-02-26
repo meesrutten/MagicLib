@@ -32,7 +32,7 @@ show.play();
 
 ## How to use it
 
-- Add `Magic.js` and `magic` directory to your scripts directory
+- Add ```Magic.js``` and `magic` directory to your scripts directory
 - Use `const animationName = new Magic( element, 'animationName' )`
 
 ## Create a new animation
