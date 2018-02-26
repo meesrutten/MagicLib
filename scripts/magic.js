@@ -8,5 +8,4 @@ function Magic(node, animationName) {
 	return new Animation(keyFrameEffect, document.timeline)
 }
 
-
 export default Magic
