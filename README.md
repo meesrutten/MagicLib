@@ -32,27 +32,34 @@ show.play();
 
 ## How to use it
 
-- Add ```Magic.js``` and `magic` directory to your scripts directory
-- Use 
+1. Add ```Magic.js``` and `/magic/` directory to your scripts directory
+2. Use 
 ```javascript 
-const animationName = new Magic( element, 'animationName' )
+const animation = new Magic( element, 'animationName' )
 ```
 
 ## Create a new animation
 
-- Create a new ```javascript animationName.js``` to `magic` directory
-- Import it in the ```javascript magic/index.js```
-- Use ```javascript const animationName = new Magic( element, 'animationName' )```
+1. Create a new `animationName.js` to `/magic/` directory
+2. Import it in the `magic/index.js`
+3. Use 
+```javascript 
+const animationName = new Magic( element, 'animationName' )
+```
 
 The `Magic` object is actually the `Animation` object. 
-This makes you able to use functions like ```javascript let animationsPromise = animationName.finished```.
+This makes you able to use functions like:
+```javascript 
+let animationsPromise = animationName.finished
+```
 
 For more information about the Web Animations API go to:
 [Web Animations API | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
 
 The Web Animation API is not very well supported as of today (13-02-2018), this demo does work in Firefox Nightly.
 For a polyfill add this to your HTML:
-
-```html <script async src="web-animations.min.js"></script>```
+```html 
+<script async src="web-animations.min.js"></script>
+```
 
 Mees Rutten, 2018
