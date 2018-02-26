@@ -8,5 +8,7 @@ import Magic from './magic.js'
 	const showThis = document.querySelector('#showThis')
 	const show = new Magic(showThis, 'show');
 	show.play();
-
+// 	show.onfinish = () => {
+// 		Do stuff when the animation finishes
+// 	}
 })()
