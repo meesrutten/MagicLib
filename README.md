@@ -18,8 +18,8 @@ const keyFrameEffect = new KeyframeEffect(
 		delay: 300
 	}
 )
-  const show = new Animation(keyFrameEffect, document.timeline);
-  show.play();
+const show = new Animation(keyFrameEffect, document.timeline);
+show.play();
 ```
 
 ### To this:
